@@ -1,0 +1,174 @@
+
+
+#title{
+  background-color:#ff4c68 ;
+  font-family: 'Ubuntu-black';
+  color: #fff;
+
+
+}
+.navbar-nav{
+  margin-left: 60%;
+
+}
+body{
+  font-family: 'Montserrat-black', sans-serif;
+
+
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar-toggler{
+  background-color: white;
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 10% 18%;
+  padding-left: 150px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: 'Montserrat-light';
+
+}
+.downloadbutton{
+  margin: 5% 3% 5% 0;
+}
+.titleimage{
+  width: 40%;
+  transform: rotate(25deg);
+
+}
+.dog-img{
+  position: absolute;
+  margin-left: 500px;
+  right: 40px;
+}
+#features{
+font-size: 1.5rem;
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+
+}
+.one{
+  font-family: 'Montserrat-black';
+  text-align: center;
+  font-weight: bolder;
+
+}
+.two{
+  color: #8f8f8f;
+  text-align: center;
+
+}
+.icon{
+color:#f05945;
+}
+.icon:hover{
+  color: black;
+}
+.testimonial{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color:#ff4c68;
+
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+}
+/* pricing */
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 2%;
+
+
+
+}
+.press-img{
+  width:10%;
+  margin: 20px 20px 50px;
+
+}
+#pricing{
+  color: grey;
+}
+.card{
+  text-align:center;
+
+  margin: 0 400px;
+
+}
+#pricing{
+text-align: center;
+
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+    font-style:"Montserrat-black";
+
+    padding-top: 100px;
+
+}
+.cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-style:"Montserrat-bolder";
+  color: #fff;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 100px;
+
+}
+.sm{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+@media(max-width:1028px){
+  .titleimage{
+
+    transform: rotate(0);
+    margin-left: 200px;
+  }
+  .dog-img {
+    position: static;
+    width: 35%;
+  }
+  .card{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+
+}
